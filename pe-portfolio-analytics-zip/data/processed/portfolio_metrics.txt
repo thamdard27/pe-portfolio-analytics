@@ -1,0 +1,17 @@
+PORTFOLIO METRICS (pooled / dollar-weighted)
+CalPERS PE sample, as of 2025-09-30
+==================================================
+
+Funds in sample:        74
+Total committed:        $23.35B
+Total paid-in (called): $26.77B
+Total distributed:      $33.13B
+Total NAV (remaining):  $13.24B
+Total unfunded:         $1.89B
+
+Portfolio DPI:  1.24x  (realized cash returned per $ called)
+Portfolio RVPI: 0.49x  (unrealized value still held per $ called)
+Portfolio TVPI: 1.73x  (total value per $ called)
+
+Mature funds only (vintage <= 2020):
+  DPI 1.35x | RVPI 0.42x | TVPI 1.76x

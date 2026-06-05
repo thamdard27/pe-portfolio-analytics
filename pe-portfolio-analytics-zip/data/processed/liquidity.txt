@@ -1,0 +1,24 @@
+LIQUIDITY ANALYSIS
+=============================================
+
+PART A - Unfunded commitment (REAL, from data)
+  Total unfunded commitment: $1.89B
+  By vintage (top contributors):
+    2021: $0.62B
+    2022: $0.33B
+    2025: $0.30B
+    2024: $0.24B
+    2023: $0.16B
+    2020: $0.09B
+    2017: $0.08B
+    2019: $0.05B
+
+PART B - Illustrative call pacing (ASSUMPTION-DRIVEN, not a forecast)
+  Assumption: unfunded called over 4 yrs, weights [0.4, 0.3, 0.2, 0.1]
+    Year +1: $0.76B expected called
+    Year +2: $0.57B expected called
+    Year +3: $0.38B expected called
+    Year +4: $0.19B expected called
+
+  NOTE: Part B is a teaching model with stated assumptions. It is
+  NOT a projection of CalPERS' actual future cash flows.

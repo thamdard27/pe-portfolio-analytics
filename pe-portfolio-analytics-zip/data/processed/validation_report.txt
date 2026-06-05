@@ -1,0 +1,59 @@
+DATA-QUALITY VALIDATION REPORT
+CalPERS PE performance sample, as of 2025-09-30
+=======================================================
+
+Funds loaded: 74
+Hard exceptions (must investigate): 0
+Data nuances flagged (informational): 47
+
+No hard exceptions: all funds passed the consistency gates.
+
+INFORMATIONAL FLAGS (paid-in exceeds commitment, due to
+recycling of capital and management fees, expected in real PE data):
+  [PAID_IN_EXCEEDS_COMMITMENT] Apollo Investment Fund IV L.P.: paid_in/committed=1.03 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Blackstone Communications Partners I L.P.: paid_in/committed=1.11 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] CVC European Equity Partners III LP: paid_in/committed=1.17 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] CalPERS Corporate Partners LLC: paid_in/committed=1.07 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Yucaipa Corporate Initiatives Fund I L.P.: paid_in/committed=1.44 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Carlyle Europe Partners II L.P.: paid_in/committed=2.21 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] TPG Partners IV L.P.: paid_in/committed=1.13 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Birch Hill Equity Partners (US) III LP: paid_in/committed=1.13 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Carlyle Asia Growth Partners III L.P.: paid_in/committed=1.13 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Apollo Investment Fund VI L.P.: paid_in/committed=1.67 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Blackstone Capital Partners V L.P.: paid_in/committed=20.70 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] KKR 2006 Fund L.P.: paid_in/committed=1.49 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] TPG Partners V L.P.: paid_in/committed=1.35 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Lime Rock Partners IV LP: paid_in/committed=1.11 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Carlyle Partners V L.P.: paid_in/committed=1.33 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Green Equity Investors V L.P.: paid_in/committed=1.11 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] New Mountain Partners III L.P.: paid_in/committed=1.18 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Silver Lake Partners III L.P.: paid_in/committed=1.28 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] CalPERS Clean Energy & Technology Fund LLC: paid_in/committed=1.01 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Advent International GPE VI-A L.P.: paid_in/committed=1.00 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Ares Corporate Opportunities Fund III L.P.: paid_in/committed=1.28 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Yucaipa American Alliance Fund II L.P.: paid_in/committed=1.40 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] 57 Stars Global Opportunities Fund 2 LLC: paid_in/committed=1.06 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] SAIF Partners IV L.P.: paid_in/committed=1.28 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Blackstone Capital Partners VI L.P.: paid_in/committed=1.45 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Blackstone Tactical Opportunities Fund - C L.P.: paid_in/committed=1.24 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Clearlake Capital Partners III LP: paid_in/committed=1.41 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Carlyle Partners VI L.P.: paid_in/committed=1.98 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] KKR Asian Fund II L.P.: paid_in/committed=1.86 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Silver Lake Partners IV L.P.: paid_in/committed=1.19 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] CVC Capital Partners VI L.P.: paid_in/committed=1.20 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] First Reserve Fund XIII LP: paid_in/committed=1.20 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Permira V L.P.: paid_in/committed=1.02 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Insight Venture Partners IX L.P.: paid_in/committed=1.06 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Lindsay Goldberg IV L.P.: paid_in/committed=1.64 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Blackstone Capital Partners VII L.P.: paid_in/committed=1.44 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Hellman & Friedman Capital Partners VIII L.P.: paid_in/committed=1.04 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Riverstone Global Energy and Power Fund VI L.P.: paid_in/committed=1.30 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] CVC Capital Partners Strategic Opportunities L.P.: paid_in/committed=1.08 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Carlyle Partners VII L.P.: paid_in/committed=2.02 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Clayton Dubilier & Rice Fund X L.P.: paid_in/committed=1.08 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Insight Venture Partners X L.P.: paid_in/committed=1.05 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Silver Lake Partners V L.P.: paid_in/committed=1.03 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Apollo Investment Fund IX L.P.: paid_in/committed=1.03 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] TPG Partners VIII L.P.: paid_in/committed=2.60 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Hellman & Friedman Capital Partners IX L.P.: paid_in/committed=1.24 (recycling/fees)
+  [PAID_IN_EXCEEDS_COMMITMENT] Blackstone Capital Partners VIII L.P.: paid_in/committed=1.71 (recycling/fees)

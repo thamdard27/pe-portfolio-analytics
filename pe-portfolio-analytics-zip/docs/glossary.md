@@ -1,7 +1,6 @@
-# Private Markets Glossary (plain English)
+# Private Markets Glossary 
 
-The vocabulary an investment-operations analyst uses every day. Each term is
-defined simply, then tied to the column or metric it maps to in this project.
+Each term is defined, then tied to the column or metric it maps to in this project.
 
 ### The two parties
 - **LP (Limited Partner)** — the investor who puts money into a fund (e.g., a
@@ -52,9 +51,8 @@ defined simply, then tied to the column or metric it maps to in this project.
 - **Co-investment** — investing directly alongside a fund in a single deal,
   usually with lower or no fees.
 
-### Why these matter for an investment-operations analyst
+### what is important for an investment-operations analyst
 The daily job is to: receive GP statements, record the **capital calls** and
 **distributions**, update the **NAV**, **reconcile** those figures across
 systems, compute **DPI/RVPI/TVPI/IRR**, track **unfunded commitments** for
-**liquidity**, and **report** it all accurately. This project does exactly that
-on real data.
+**liquidity**, and **report** it all accurately. 

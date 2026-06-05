@@ -1,8 +1,7 @@
-## Why this project exists
-Roles like this center on alternative-investment data (NAVs, capital calls,
-distributions, liquidity). This project takes the data skills I already have
-(ingestion, validation, reconciliation, reporting) and applies them to genuine
-private-markets data, so the methods and the vocabulary are demonstrated on real
+## Why this project
+This project takes the data skills I already have
+(ingestion, validation, reconciliation, reporting) and applies them to 
+private-markets data, so the methods and the vocabulary are demonstrated on actual
 numbers rather than asserted.
 
 ## The data
@@ -30,7 +29,7 @@ python run_pipeline.py
 ```
 Outputs land in `data/processed/` (metrics, vintage summary, validation report,
 performers, liquidity) and `reports/figures/` (charts). A written summary with
-the real numbers is in [`reports/findings.md`](reports/findings.md).
+is in [`reports/findings.md`](reports/findings.md).
 
 ## Headline results (computed, see findings.md)
 - Portfolio **TVPI 1.73x** = **DPI 1.24x** (realized) + **RVPI 0.49x** (unrealized)

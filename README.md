@@ -1,14 +1,3 @@
-# Private Markets Portfolio Analytics (CalPERS PE)
-
-An end-to-end analytics pipeline over **real, public private-equity data** that
-computes the metrics an investment-operations analyst works with every day:
-capital calls, distributions, NAV, DPI, RVPI, TVPI, IRR, unfunded commitments,
-and liquidity, with data-quality validation and reporting.
-
-Built to mirror the work of a private-markets / investment-operations data role:
-ingest investment data → validate and reconcile it → compute performance →
-report it.
-
 ## Why this project exists
 Roles like this center on alternative-investment data (NAVs, capital calls,
 distributions, liquidity). This project takes the data skills I already have
@@ -16,7 +5,7 @@ distributions, liquidity). This project takes the data skills I already have
 private-markets data, so the methods and the vocabulary are demonstrated on real
 numbers rather than asserted.
 
-## The data (real)
+## The data
 A 74-fund sample of the **CalPERS Private Equity Program Fund Performance
 Review**, as of **September 30, 2025** (public). Spans every vintage from 1998 to
 2025 and the full range of outcomes. Provenance and dictionary:
@@ -58,11 +47,11 @@ data/processed/      cleaned data, metrics, validation + liquidity reports
 src/                 01_load.py, 02_analyze.py, 03_liquidity.py
 reports/figures/     charts (J-curve, IRR distribution, capital bridge, liquidity)
 reports/findings.md  written results
-docs/glossary.md     plain-English private-markets glossary
+docs/glossary.md     private-markets glossary to understand the basics
 run_pipeline.py      runs all steps
 ```
 
-## How this maps to an investment-operations data role
+## How this is related to investment-operations
 | Role responsibility | Where it shows up here |
 |---|---|
 | Ingest & validate investment data (NAVs, transactions) | `01_load.py` parsing + validation gates |
@@ -72,22 +61,8 @@ run_pipeline.py      runs all steps
 | Liquidity models / waterfalls | unfunded-commitment exposure + pacing model |
 | Reporting for portfolio monitoring | findings.md + charts |
 
-## Interview talking points
-- **What it is:** "I built a pipeline that takes real CalPERS private-equity
-  data and computes the standard LP performance metrics, DPI, RVPI, TVPI, IRR,
-  plus unfunded-commitment liquidity, with data-quality validation and
-  reporting."
-- **The J-curve:** "You can see it directly: 2008-vintage funds are ~1.9x DPI
-  with almost no NAV left, while 2022-vintage funds are ~0.0x DPI but ~1.2x
-  RVPI, value that hasn't been realized yet."
-- **Data quality:** "Paid-in exceeds commitment for 47 funds. That's not an
-  error, it's capital recycling and fees, so I flagged it as informational and
-  clamped unfunded at zero instead of letting it go negative."
-- **Honesty about limits:** "It's a documented sample of the full public table,
-  a point-in-time snapshot, and the pacing model is clearly labeled as
-  assumption-driven, not a forecast."
 
-## Honest limitations
+## limitations
 See `reports/findings.md`. Short version: documented sample (not the full table),
 point-in-time snapshot (IRRs are as-reported, not recomputed), and the liquidity
 pacing projection is illustrative with stated assumptions.

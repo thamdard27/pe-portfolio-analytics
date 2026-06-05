@@ -60,7 +60,7 @@ holds substantial unrealized value, for total value of 1.73x paid-in capital.
   the normal result of capital recycling and fees in real PE data, handled
   explicitly rather than silently.
 
-## Honest limitations
+## limitations
 - A 74-fund **sample** of the full ~300-fund table (documented in
   `data/README.md`), chosen to span all vintages and outcomes.
 - A **point-in-time snapshot**; not a time series of dated cash flows, so the
